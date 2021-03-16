@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body{
+   background-color: darksalmon; 
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 20px; 
+}
+
+h1{
+   font-size: 60px;
+   text-align: center;
+}
+
+h2{
+   font-size: 45px;
+   text-align: center;
+}
+
+p{
+text-align: justify;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+nav#menu {
+    display: block;
+}
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    top: 0;
+    left: 100;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: cadetblue;
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+}
+
+nav#menu h1{
+    display: none;
+}
