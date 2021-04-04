@@ -104,28 +104,33 @@ header#usuarioesenha input#btnAutenticar {
 }
 
 table#quadrodoaluno {
+    background-color: #ecbfbf;
     text-align: center;
     border: 4px solid rgb(0, 0, 0);
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }
 table#quadrodoaluno tr#menuquadro {
+    background-color: #dddddd;
     text-align: center;
     border: 4px solid rgb(0, 0, 0);
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }
 table#quadrodoaluno tr#gestaodepessoas{
+    background-color: #d9f2fc;
     text-align: center;
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }
 table#quadrodoaluno tr#ingles{
+    background-color: #d9f2fc;
     text-align: center;
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }
 table#quadrodoaluno tr#redesdecomputadores{
+    background-color: #d9f2fc;
     text-align: center;
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
