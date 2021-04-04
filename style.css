@@ -64,8 +64,8 @@ nav#menu a {
     text-decoration: none;
 }
 
-nav#menu a: :hover {
-    
+nav#menu a:hover {
+    color: #1403f8
 }
 
 figure.logo-inicial {
@@ -79,4 +79,29 @@ figure.logo-fatec-paginas {
     text-align: center;
     border: 4px solid white;
     box-shadow: 3px 3px 12px black;
+}
+
+div#corpo {
+    width: 1000px;
+    background-color: #ffffff;
+    margin:20px auto 10px auto;
+    box-shadow: 0px 0px 10px black;
+    padding:  20px;
+}
+
+header#submenu img#estudante {
+    position: absolute;
+    left: 750px;
+    top: 390px;
+
+}
+
+header#usuarioesenha {
+    margin: auto auto auto 400px;
+
+}
+
+header#usuarioesenha input#btnAutenticar {
+    margin: auto auto auto 140px;
+
 }
