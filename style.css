@@ -93,22 +93,38 @@ header#submenu img#estudante {
     position: absolute;
     left: 750px;
     top: 390px;
-
 }
 
 header#usuarioesenha {
     margin: auto auto auto 400px;
-
 }
 
 header#usuarioesenha input#btnAutenticar {
     margin: auto auto auto 140px;
-
 }
 
 table#quadrodoaluno {
     text-align: center;
-    border: 4px solid white;
+    border: 4px solid rgb(0, 0, 0);
     box-shadow: 3px 3px 12px black;
+    margin: auto auto auto 250px;
 
 }
+table#quadrodoaluno tr#menuquadro {
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+}
+
+table#quadrodoaluno tr#gestaodepessoas{
+    text-align: center;
+    box-shadow: 3px 3px 12px black;
+}
+table#quadrodoaluno tr#ingles{
+    text-align: center;
+    box-shadow: 3px 3px 12px black;
+}
+table#quadrodoaluno tr#redesdecomputadores{
+    text-align: center;
+    box-shadow: 3px 3px 12px black;
+}    
