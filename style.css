@@ -30,6 +30,9 @@ padding-right: 30px;
 
 }
 
+
+
+
 nav#menu {
     display: block;
 }
@@ -41,7 +44,6 @@ nav#menu ul {
     top: 0;
     left: 100;
 }
-
 nav#menu li{
     display: inline-block;
     background-color: rgb(226, 82, 82);
@@ -50,37 +52,33 @@ nav#menu li{
     text-align: center;
     transition:background-color 1s;
 }
-
 nav#menu li:hover {
     background-color: #611616;
 }
-
 nav#menu h1{
     display: none;
 }
-
 nav#menu a {
     color: #efefef;
     text-decoration: none;
 }
-
 nav#menu a:hover {
     color: #1403f8
 }
+
+
+
 
 figure.logo-inicial {
     text-align: center;
     border: 4px solid white;
     box-shadow: 3px 3px 12px black;
-    
 }
-
 figure.logo-fatec-paginas {
     text-align: center;
     border: 4px solid white;
     box-shadow: 3px 3px 12px black;
 }
-
 div#corpo {
     width: 1000px;
     background-color: #ffffff;
@@ -88,9 +86,45 @@ div#corpo {
     box-shadow: 0px 0px 10px black;
     padding:  20px;
 }
+
+
+
+
+
+header#acessoaluno {
+    margin: auto auto auto 275px;
+}
+header#acessoaluno input#btnAutenticar {
+    margin: auto auto auto 240px;
+}
+
+
+
+header#acessoprofessor {
+    position: absolute;
+    left: 850px;
+    top: 410px;
+}
+header#acessoprofessor input#btnAutenticar {
+    margin: auto auto auto 130px;
+}
+header#professores img#professores{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+
+
+
 header#submenu img#estudante {
     position: absolute;
-    left: 750px;
+    left: 100px;
+    top: 390px;
+}
+header#submenu img#professores {
+    position: absolute;
+    left: 685px;
     top: 390px;
 }
 header#submenu img#pessoas {
@@ -124,13 +158,79 @@ header#submenu img#redescomputadores {
     top: 280px;
 }
 
-header#usuarioesenha {
-    margin: auto auto auto 400px;
+
+
+
+
+header#submenu img#profingles {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+header#submenu img#profgestaofinanceira {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+header#submenu img#profgestaopessoas {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+header#submenu img#profgestaomarketing {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+header#submenu img#profprginternet {
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+header#submenu img#profredecomputadores {
+    position: absolute;
+    left: 50px;
+    top: 80px;
 }
 
-header#usuarioesenha input#btnAutenticar {
-    margin: auto auto auto 140px;
+
+
+
+
+header#logo-diciplinas img#ingles {
+    position: absolute;
+    left: 10px;
+    top: 450px;
 }
+header#logo-diciplinas img#financeira {
+    position: absolute;
+    left: 220px;
+    top: 450px;
+}
+header#logo-diciplinas img#pessoas {
+    position: absolute;
+    left: 440px;
+    top: 450px;
+}
+header#logo-diciplinas img#marketing {
+    position: absolute;
+    left: 650px;
+    top: 450px;
+}
+header#logo-diciplinas img#prginternet {
+    position: absolute;
+    left: 850px;
+    top: 450px;
+}
+header#logo-diciplinas img#redecomputadores {
+    position: absolute;
+    left: 1100px;
+    top: 460px;
+}
+
+
+
+
 
 table#quadrodoaluno {
     background-color: #ecbfbf;
@@ -165,6 +265,9 @@ table#quadrodoaluno tr#redesdecomputadores{
     margin: auto auto auto 250px;
 }    
 
+
+
+
 footer#rodape {
     display: block;
 }
@@ -173,10 +276,9 @@ footer#rodape ul {
     text-transform: uppercase;
     font-size: 14px;
     position: absolute;
-    float: 10px;
+    padding: 2px;
     left: 100px;
 }
-
 footer#rodape li{
     display: inline-block;
     background-color: rgba(218, 168, 168, 6);
@@ -185,16 +287,10 @@ footer#rodape li{
     text-align: center;
     transition:background-color 1s;
 }
-
 footer#rodape li:hover {
     background-color: #7a885d;
 }
-
 footer#rodape a {
     color: #efefef;
     text-decoration: none;
-}
-
-footer#rodape a:hover {
-    color: #bbfff6
 }
