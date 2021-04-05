@@ -165,10 +165,10 @@ table#quadrodoaluno tr#redesdecomputadores{
     margin: auto auto auto 250px;
 }    
 
-nav#menufoot {
+footer#rodape {
     display: block;
 }
-nav#menufoot ul {
+footer#rodape ul {
     list-style: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -177,7 +177,7 @@ nav#menufoot ul {
     left: 100px;
 }
 
-nav#menufoot li{
+footer#rodape li{
     display: inline-block;
     background-color: rgba(218, 168, 168, 6);
     padding: 10px;
@@ -186,19 +186,15 @@ nav#menufoot li{
     transition:background-color 1s;
 }
 
-nav#menufoot li:hover {
+footer#rodape li:hover {
     background-color: #7a885d;
 }
 
-nav#menufoot h1{
-    display: none;
-}
-
-nav#menufoot a {
+footer#rodape a {
     color: #efefef;
     text-decoration: none;
 }
 
-nav#menufoot a:hover {
+footer#rodape a:hover {
     color: #bbfff6
 }
