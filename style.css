@@ -164,3 +164,42 @@ table#quadrodoaluno tr#redesdecomputadores{
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }    
+
+nav#menufoot {
+    display: block;
+}
+nav#menufoot ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    position: absolute;
+    float: 10;
+    left: 100px;
+}
+
+nav#menufoot li{
+    display: inline-block;
+    background-color: rgba(218, 168, 168, 6);
+    padding: 8px;
+    margin: 1px;
+    text-align: center;
+    transition:background-color 1s;
+}
+
+nav#menufoot li:hover {
+    background-color: #7a885d;
+}
+
+nav#menufoot h1{
+    font-size: 10px;
+    display: none;
+}
+
+nav#menufoot a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+nav#menufoot a:hover {
+    color: #bbfff6
+}
