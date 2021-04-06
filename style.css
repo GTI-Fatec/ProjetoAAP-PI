@@ -32,7 +32,6 @@ padding-right: 30px;
 
 
 
-
 nav#menu {
     display: block;
 }
@@ -291,6 +290,53 @@ footer#rodape li:hover {
     background-color: #7a885d;
 }
 footer#rodape a {
+    color: #efefef;
+    text-decoration: none;
+}
+
+
+
+
+section#diciplina {
+    display: block;
+    width: 700px;
+    float: left;
+    border-right: 2px solid #000000;
+    padding : 15px;
+}
+aside#avaliacoes {
+    display: block;
+    width: 600px;
+    float: right;
+}
+
+footer#rodapeprof {
+clear: both;
+border-top: 2px solid #000000;
+}
+footer#rodapeprof {
+    display: block;
+}
+footer#rodapeprof ul {
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    position: absolute;
+    padding: 2px;
+    left: 100px;
+}
+footer#rodapeprof li{
+    display: inline-block;
+    background-color: rgba(218, 168, 168, 6);
+    padding: 10px;
+    margin: 2px;
+    text-align: center;
+    transition:background-color 1s;
+}
+footer#rodapeprof li:hover {
+    background-color: #7a885d;
+}
+footer#rodapeprof a {
     color: #efefef;
     text-decoration: none;
 }
