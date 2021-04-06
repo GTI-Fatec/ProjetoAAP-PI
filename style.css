@@ -18,17 +18,25 @@ h3{
     font-size: 26px;
     text-align: center;
 }
+h5{
+    font-size: 20px;
+    text-align: center;
+}
 h6{
     font-size: 12px;
     text-align: center;
 }
 
+
+
+
 p{
 text-align: justify;
 padding-left: 30px;
 padding-right: 30px;
-
 }
+
+
 
 
 
@@ -90,12 +98,14 @@ div#corpo {
 
 
 
+
 header#acessoaluno {
     margin: auto auto auto 275px;
 }
 header#acessoaluno input#btnAutenticar {
     margin: auto auto auto 240px;
 }
+
 
 
 
@@ -112,6 +122,7 @@ header#professores img#professores{
     left: 100px;
     top: 100px;
 }
+
 
 
 
@@ -163,32 +174,32 @@ header#submenu img#redescomputadores {
 
 header#submenu img#profingles {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 header#submenu img#profgestaofinanceira {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 header#submenu img#profgestaopessoas {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 header#submenu img#profgestaomarketing {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 header#submenu img#profprginternet {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 header#submenu img#profredecomputadores {
     position: absolute;
-    left: 50px;
+    left: 30px;
     top: 80px;
 }
 
@@ -196,37 +207,37 @@ header#submenu img#profredecomputadores {
 
 
 
-header#logo-diciplinas img#ingles {
-    position: absolute;
-    left: 10px;
-    top: 450px;
-}
-header#logo-diciplinas img#financeira {
-    position: absolute;
-    left: 220px;
-    top: 450px;
-}
-header#logo-diciplinas img#pessoas {
-    position: absolute;
-    left: 440px;
-    top: 450px;
-}
-header#logo-diciplinas img#marketing {
-    position: absolute;
-    left: 650px;
-    top: 450px;
-}
-header#logo-diciplinas img#prginternet {
-    position: absolute;
-    left: 850px;
-    top: 450px;
-}
-header#logo-diciplinas img#redecomputadores {
-    position: absolute;
-    left: 1100px;
-    top: 460px;
-}
 
+figure#logo-diciplinas img#ingles {
+    position: absolute;
+    left: 50px;
+    top: 320px;
+}
+figure#logo-diciplinas img#financeira {
+    position: absolute;
+    left: 400px;
+    top: 320px;
+}
+figure#logo-diciplinas img#pessoas {
+    position: absolute;
+    left: 780px;
+    top: 320px;
+}
+figure#logo-diciplinas img#marketing {
+    position: absolute;
+    left: 1050px;
+    top: 320px;
+}
+figure#logo-diciplinas img#prginternet {
+    position: absolute;
+    left: 400px;
+    top: 530px;
+}
+figure#logo-diciplinas img#redecomputadores {
+    position: absolute;
+    left: 800px;
+    top: 530px;
+}
 
 
 
@@ -263,6 +274,54 @@ table#quadrodoaluno tr#redesdecomputadores{
     box-shadow: 3px 3px 12px black;
     margin: auto auto auto 250px;
 }    
+
+
+
+
+
+table#quadroingles {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: 135px auto auto 103px;
+}
+table#quadrofinanceira {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 420px;
+}
+table#quadropessoas {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 780px;
+}
+table#quadromarketing {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 1070px;
+}
+table#quadroproginternet {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: 180px auto auto 370px;
+}
+table#quadroredecomputaodres {
+    background-color: #ecbfbf;
+    text-align: center;
+    border: 4px solid rgb(0, 0, 0);
+    box-shadow: 3px 3px 12px black;
+    margin: -35px auto auto 770px;
+}
+
 
 
 
@@ -309,6 +368,9 @@ aside#avaliacoes {
     width: 600px;
     float: right;
 }
+
+
+
 
 footer#rodapeprof {
 clear: both;
