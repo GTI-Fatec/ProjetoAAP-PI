@@ -8,68 +8,64 @@
     <title>Projeto AAP - 4ºSemestre - Fatec Itaquaquecetuba - SP</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<br><br>
-
-<figure class="logo-inicial">
-    <img src="imagens/fatec.png">
-</figure>
-
-<header id="professores">
-    <h2>Area do Professor</h2>
-    <img id="professores" src="imagens/professores.png" />
-</header>
-
-<nav id="menu">
-    <h1>Menu Principal</h1>
-    <ul>
-        <li><a href="index.html">voltar</li></a>
-    </ul>
-</nav>
 
 <body>
+    <div id="main-header"></div>
 
-    <table id="quadroingles">
-        <th> Inglês IV </th>
-    </table>
-    <table id="quadrofinanceira">
-        <th>Gestão Financeira</th>
-    </table>
-    <table id="quadropessoas">
-        <th>Gestão de Pessoas</th>
-    </table>
-    <table id="quadromarketing">
-        <th>Gestão de Marketng</th>
-    </table>
-    <table id="quadroproginternet">
-        <th>Programação para Internet</th>
-    </table>
-    <table id="quadroredecomputaodres">
-        <th>Rede de Computadores</th>
-    </table>
+    <div class="container">
+        <header class="subject-header">
+            <h2>Área do Professor</h2>
+            <img src="imagens/professores.png" alt="Professores" />
+        </header>
 
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Voltar</a></li>
+            </ul>
+        </nav>
 
+        <div class="courses-grid">
+            <div class="course-item">
+                <a href="prfessor_ingles4.html">
+                    <img src="imagens/ingles.png" alt="Inglês" />
+                    <p>Inglês IV</p>
+                </a>
+            </div>
+            <div class="course-item">
+                <a href="professor_gestaoFinanceira.html">
+                    <img src="imagens/financeira.png" alt="Gestão Financeira" />
+                    <p>Gestão Financeira</p>
+                </a>
+            </div>
+            <div class="course-item">
+                <a href="professor_gestoaPessoas.html">
+                    <img src="imagens/pessoas.png" alt="Gestão de Pessoas" />
+                    <p>Gestão de Pessoas</p>
+                </a>
+            </div>
+            <div class="course-item">
+                <a href="professor_marketing.html">
+                    <img src="imagens/marketing.png" alt="Marketing" />
+                    <p>Marketing</p>
+                </a>
+            </div>
+            <div class="course-item">
+                <a href="professor_progamacaoParaInternet.html">
+                    <img src="imagens/prginternet.png" alt="Programação para Internet" />
+                    <p>Programação para Internet</p>
+                </a>
+            </div>
+            <div class="course-item">
+                <a href="professor_redeDeComputadores.html">
+                    <img src="imagens/redescomputadores.png" alt="Rede de Computadores" />
+                    <p>Rede de Computadores</p>
+                </a>
+            </div>
+        </div>
+    </div>
 
-    <figure id="logo-diciplinas">
-
-        <a href="prfessor_ingles4.html"> <img id="ingles" src="imagens/ingles.png" alt="Inglês" /> </a>
-
-        <a href="professor_gestaoFinanceira.html"> <img id="financeira" src="imagens//financeira.png"
-                alt="Gestão Financeira" /></a>
-
-        <a href="professor_gestoaPessoas.html"> <img id="pessoas" src="imagens/pessoas.png" alt="" /></a>
-
-        <a href="professor_marketing.html"> <img id="marketing" src="imagens/marketing.png" alt="" /></a>
-
-        <a href="professor_progamacaoParaInternet.html"> <img id="prginternet" src="imagens/prginternet.png"
-                alt="" /></a>
-
-        <a href="professor_redeDeComputadores.html"> <img id="redecomputadores" src="imagens/redescomputadores.png"
-                alt="" /></a>
-
-
-    </figure>
-
-
+    <div id="main-footer-placeholder"></div>
+    <script src="script.js"></script>
 </body>
 
 </html>
