@@ -8,148 +8,123 @@
     <title>Projeto AAP - 4ºSemestre - Fatec Itaquaquecetuba - SP</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script>
-    function mudarFoto(foto)
-</script>
-<br><br>
-<figure class="logo-inicial">
-    <img src="imagens/fatec.png"> &ensp; &ensp; &ensp; <img src="imagens/Centro_Paula_Souza.png"> &ensp; &ensp; &ensp;
-    <img src="imagens/Sao_Paulo.png">
-</figure>
-
-<header id="submenu">
-    <h2>AAP - Gestão da Tecnologia da Informação</h2>
-    <h3>Projeto Interdisciplinar</h3>
-    <img id="estudante" src="imagens/Estudante.png" />
-    <img id="professores" src="imagens/professores.png" />
-</header>
-
-<header id="acessoaluno">
-
-    Aluno: <input type="text" size="33" maxlength="30" name="txtUsuario" id="txtUsuario" /><br><br><br>
-    Senha : <input type="text" size="31" maxlength="30" name="txtSenha" id="txtSenha" value=""/> <br><br>
-
-    <input id="btnAutenticar" type="submit" name="btnAutenticar" value="Autenticar">
-
-</header>
-
-<header id="acessoprofessor">
-
-    Professor: <input type="text" size="31" maxlength="30" name="txtUsuario" id="txtUsuario"/> <br><br><br>
-    Senha : <input type="text" size="34" maxlength="30" name="txtSenha" id="txtSenha" value=""/> <br><br>
-
-    <input id="btnAutenticar" type="submit" name="btnAutenticar" value="Autenticar">
-    <a href="professor_index.html"><button>Acesso do Professor</button></a>
-
-</header>
-
-<nav id="menu">
-    <h1>Menu Principal</h1>
-    <ul>
-        <li><a href="index.html">home</li>
-        <li><a href="fundamentos de marketing.html">Marketing</li>
-        <li><a href="gestao de pessoas.html">Gestão de Pessoas</li>
-        <li><a href="gestao financeira.html">Gestão Financeira</li>
-        <li><a href="ingles iv.html">Inglês IV</li>
-        <li><a href="programacao para internet.html">Programação para Internet</li>
-        <li><a href="redes de computadores.html">Redes de Computadores</li>
-        <li><a href="Equipe.html">Equipe Projeto</li></a>
-    </ul>
-
-</nav>
 
 <body>
-    <div id="corpo">
 
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A ut quod saepe harum recusandae fuga facere magni
-            adipisci autem maiores laborum assumenda quisquam explicabo voluptas, neque cupiditate doloribus eaque.
-            Tempore!</p><br>
+    <header class="main-header">
+        <div class="container">
+            <img src="imagens/fatec.png" alt="Logo Fatec" class="logo">
+            <h1>AAP - Gestão da Tecnologia da Informação</h1>
+            <p>Projeto Interdisciplinar</p>
+        </div>
+    </header>
 
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam excepturi quae nemo illo asperiores a.
-            Delectus, ab doloremque! Harum itaque facilis ipsam modi molestiae corporis veniam ex mollitia molestias
-            odit.</p><br>
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="materiais.html">Materiais de Aula</a></li>
+                <li><a href="avaliacoes.html">Avaliações</a></li>
+                <li><a href="notas.html">Minhas Notas</a></li>
+                <li><a href="Equipe.html">Equipe Projeto</a></li>
+                <li><a href="professor.html">Área do Professor</a></li>
+            </ul>
+        </div>
+    </nav>
 
-        <table id="quadrodoaluno">
-            <caption>Quadro do Aluno</caption>
-            <tr id="menuquadro">
-                <th> Diciplina </th>
-                <th> Faltas </th>
-                <th> B1 </th>
-                <th> B2 </th>
-                <th> Trabalho </th>
-                <th> Média </th>
-            </tr>
-            <tr id="marketing">
-                <td>Fundamentos de Marketing</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-            <tr id="gestaodepessoas">
-                <td>Gestão de Pessoas</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-            <tr id="gestaofinanceira">
-                <td>Gestão Financeira</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-            <tr id="ingles">
-                <td>Inglês IV</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-            <tr id="progamacaoparainternet">
-                <td>Programação para Internet</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-            <tr id="redesdecomputadores">
-                <td>Redes de Compuadores</td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-                <td> xx </td>
-            </tr>
-        </table>
+    <div class="container">
+        <main class="main-content">
+            <h2>Bem-vindo ao Portal do Aluno</h2>
+            <p>Aqui você encontra informações sobre suas disciplinas, notas e faltas.</p>
 
+            <div id="login-area">
+                <h3>Acesso do Aluno</h3>
+                <form>
+                    <label for="txtUsuario">Aluno:</label>
+                    <input type="text" size="33" maxlength="30" name="txtUsuario" id="txtUsuario" /><br><br>
+                    <label for="txtSenha">Senha:</label>
+                    <input type="password" size="31" maxlength="30" name="txtSenha" id="txtSenha" value="" /><br><br>
+                    <input id="btnAutenticar" type="submit" name="btnAutenticar" value="Autenticar">
+                </form>
+            </div>
+
+            <div id="teacher-access">
+                <h3>Acesso do Professor</h3>
+                <a href="professor_index.html"><button>Entrar</button></a>
+            </div>
+
+            <table id="quadrodoaluno">
+                <caption>Quadro do Aluno</caption>
+                <thead>
+                    <tr>
+                        <th>Disciplina</th>
+                        <th>Faltas</th>
+                        <th>B1</th>
+                        <th>B2</th>
+                        <th>Trabalho</th>
+                        <th>Média</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fundamentos de Marketing</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>Gestão de Pessoas</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>Gestão Financeira</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>Inglês IV</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>Programação para Internet</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                    <tr>
+                        <td>Redes de Computadores</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                        <td>xx</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
     </div>
 
-    <hr width="100%">
-
-    <footer id="rodape">
-        <ul>
-            <h6>
-                <li><a href="index.html">home</li>
-                <li><a href="fundamentos de marketing.html">Marketing</li>
-                <li><a href="gestao de pessoas.html">Gestão de Pessoas</li>
-                <li><a href="gestao financeira.html">Gestão Financeira</li>
-                <li><a href="ingles iv.html">Inglês IV</li>
-                <li><a href="programacao para internet.html">Programação para Internet</li>
-                <li><a href="redes de computadores.html">Redes de Computadores</li>
-                <li><a href="Equipe.html">Equipe Projeto</li></a>
-            </h6>
-        </ul>
-
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 - Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>
-
 
 </html>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Equipe do Projeto - Projeto AAP</title>
+    <title>Minhas Notas - Projeto AAP</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -14,7 +14,7 @@
     <header class="main-header">
         <div class="container">
             <img src="imagens/fatec.png" alt="Logo Fatec" class="logo">
-            <h1>Equipe do Projeto</h1>
+            <h1>Minhas Notas</h1>
         </div>
     </header>
 
@@ -22,26 +22,17 @@
         <div class="container">
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="professor.html">Área do Professor</a></li>
                 <li><a href="materiais.html">Materiais de Aula</a></li>
                 <li><a href="avaliacoes.html">Avaliações</a></li>
-                <li><a href="notas.html">Minhas Notas</a></li>
-                <li><a href="Equipe.html" class="current">Equipe Projeto</a></li>
-                <li><a href="professor.html">Área do Professor</a></li>
+                <li><a href="notas.html" class="current">Minhas Notas</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
-        <main class="main-content">
-            <h2>Professor Orientador</h2>
-            <p>Marcos Vasconcelos de Oliveira</p>
-
-            <h2>Aluno Envolvido no Projeto</h2>
-            <div class="team-member">
-                <img src="imagens/roberto.png" alt="Foto de Roberto Soares de Freitas">
-                <h3>Roberto Soares de Freitas</h3>
-                <p>RA: 155.0781921028</p>
-            </div>
+        <main class="main-content" id="grades-list">
+            <!-- As notas serão inseridas aqui dinamicamente -->
         </main>
     </div>
 
@@ -51,6 +42,7 @@
         </div>
     </footer>
 
+    <script src="notas.js"></script>
 </body>
 
 </html>

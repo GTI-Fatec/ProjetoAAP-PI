@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área do Professor - Projeto AAP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="container">
+            <img src="imagens/fatec.png" alt="Logo Fatec" class="logo">
+            <h1>Área do Professor</h1>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="materiais.html">Materiais de Aula (Aluno)</a></li>
+                <li><a href="avaliacoes.html">Avaliações (Aluno)</a></li>
+                <li><a href="notas.html">Minhas Notas (Aluno)</a></li>
+                <li><a href="Equipe.html">Equipe Projeto</a></li>
+                <li><a href="professor.html" class="current">Área do Professor</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="main-content">
+            <section id="course-materials">
+                <h2>Gestão de Materiais de Aula</h2>
+                <form id="materials-form">
+                    <label for="material-title">Título do Material:</label>
+                    <input type="text" id="material-title" required>
+                    <br><br>
+                    <label for="material-content">Conteúdo:</label>
+                    <textarea id="material-content" rows="10" cols="80" required></textarea>
+                    <br><br>
+                    <button type="submit">Salvar Material</button>
+                </form>
+            </section>
+
+            <hr>
+
+            <section id="assessments">
+                <h2>Gestão de Avaliações</h2>
+                <form id="assessment-form">
+                    <label for="assessment-title">Título da Avaliação:</label>
+                    <input type="text" id="assessment-title" required>
+                    <br><br>
+                    <div id="questions-container">
+                        <!-- As perguntas serão adicionadas dinamicamente aqui -->
+                    </div>
+                    <button type="button" id="add-question">Adicionar Pergunta</button>
+                    <br><br>
+                    <button type="submit">Salvar Avaliação</button>
+                </form>
+            </section>
+
+            <hr>
+
+            <section id="grading">
+                <h2>Correção de Avaliações</h2>
+                <div id="submissions-container">
+                    <!-- As submissões dos alunos serão exibidas aqui -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2024 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="professor.js"></script>
+</body>
+
+</html>
