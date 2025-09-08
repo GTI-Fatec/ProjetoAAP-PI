@@ -214,6 +214,73 @@ a {
     margin-top: 10px;
 }
 
+/* Content Editor */
+.content-editor {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content-editor h3 {
+    margin-top: 0;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    background-color: #337ab7;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-group button[type="submit"] {
+    background-color: #5cb85c;
+}
+
+/* Courses Grid */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.course-item {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.course-item img {
+    max-width: 100px;
+}
+
+.course-item a {
+    text-decoration: none;
+    color: #333;
+}
+
 /* Footer */
 .main-footer {
     text-align: center;

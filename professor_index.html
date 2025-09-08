@@ -18,11 +18,35 @@
             <img src="imagens/professores.png" alt="Professores" />
         </header>
 
-        <nav class="main-nav">
-            <ul>
-                <li><a href="index.html">Voltar</a></li>
-            </ul>
-        </nav>
+        <div id="main-nav-placeholder"></div>
+
+        <div class="content-editor">
+            <h3>Editor de Conteúdo da Matéria</h3>
+            <form>
+                <div class="form-group">
+                    <label for="subject-select">Selecione a Matéria:</label>
+                    <select id="subject-select" name="subject-select">
+                        <option value="ingles">Inglês IV</option>
+                        <option value="financeira">Gestão Financeira</option>
+                        <option value="pessoas">Gestão de Pessoas</option>
+                        <option value="marketing">Marketing</option>
+                        <option value="internet">Programação para Internet</option>
+                        <option value="redes">Rede de Computadores</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="content-textarea">Conteúdo:</label>
+                    <textarea id="content-textarea" name="content-textarea" rows="10" placeholder="Digite o conteúdo da matéria aqui..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button">Adicionar Imagem</button>
+                    <button type="button">Adicionar Teste</button>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Salvar Conteúdo</button>
+                </div>
+            </form>
+        </div>
 
         <div class="courses-grid">
             <div class="course-item">
