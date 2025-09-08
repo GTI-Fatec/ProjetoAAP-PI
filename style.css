@@ -83,6 +83,44 @@ a {
     color: #1403f8;
 }
 
+.hamburger-menu {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main-nav ul.nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main-nav ul.nav-links.nav-links-active {
+        display: flex;
+    }
+
+    .main-nav li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .hamburger-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+
+    .container {
+        width: 90%;
+    }
+}
+
 /* Login Forms */
 .login-section {
     display: flex;

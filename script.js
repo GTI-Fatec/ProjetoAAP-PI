@@ -8,7 +8,10 @@ const headerHTML = `
 
 const navHTML = `
     <nav class="main-nav">
-        <ul>
+        <button class="hamburger-menu" id="hamburger-menu">
+            &#9776;
+        </button>
+        <ul class="nav-links" id="nav-links">
             <li><a href="index.html">Home</a></li>
             <li><a href="fundamentos de marketing.html">Marketing</a></li>
             <li><a href="gestao de pessoas.html">Gestão de Pessoas</a></li>
@@ -57,5 +60,14 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     if (document.getElementById('main-footer-placeholder')) {
         generateFooter();
+    }
+
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    if (hamburgerMenu && navLinks) {
+        hamburgerMenu.addEventListener('click', function() {
+            navLinks.classList.toggle('nav-links-active');
+        });
     }
 });
