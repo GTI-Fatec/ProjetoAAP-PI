@@ -3,7 +3,9 @@ bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
+_Documentos/
 _Documentos
+
 
 # Other files and folders
 .settings/
